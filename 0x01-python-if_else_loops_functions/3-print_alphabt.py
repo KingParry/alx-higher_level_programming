@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for r in range(97, 123):
-    if r != 101 and r != 113:
-        print("{:c}".format(r), end='')
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print("{:c}".format(i), end='')
