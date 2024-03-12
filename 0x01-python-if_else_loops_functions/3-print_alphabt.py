@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    if i != 101 and i != 113:
-        print("{:c}".format(i), end='')
+# authr - Emml Parry
+for letty in range(97, 123):
+    if chr(letty) != 'e' and chr(letty) != 'q':
+        print("{}".format(chr(letty)), end="")
