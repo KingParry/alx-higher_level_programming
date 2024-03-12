@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# authr - Emml Parry
 for letty in range(97, 123):
-    if chr(letty) != 'e' and chr(letty) != 'q':
+    if chr(letty) == 'q' and chr(letty) == 'e':
+        continue
+    else:
         print("{}".format(chr(letty)), end="")
